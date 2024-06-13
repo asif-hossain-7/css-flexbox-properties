@@ -1,0 +1,81 @@
+/* CSS PROPERTIES */
+
+/* 1. flex-direction
+2. flex-wrap
+3. justify-content
+4. align-items
+5. align-content
+6. flex-flow
+
+7. order
+8. flex-grow
+9. flex-shrink
+10. flex-besis */
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flex-container{
+    width: 50%;
+    height: 70vh;
+    border: 5px solid red;
+    margin: 50px auto 0;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: column wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    align-items: baseline;
+}
+
+.flex-item{
+    width: 120px;
+    height: 120px;
+    background: #43035d;
+    margin: 5px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1{
+    width: 50px;
+    height: 50px;
+    flex-basis: 25%;
+}
+
+.item-2{
+    width: 75px;
+    height: 75px;
+    flex-basis: 30%;
+    align-self: center;
+}
+
+.item-3{
+    width: 100px;
+    height: 100px;
+    flex-basis: 25%;
+}
+
+.item-4{
+    width: 125px;
+    height: 125px;
+    flex-basis: 20%;
+}
+
